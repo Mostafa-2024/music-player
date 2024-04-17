@@ -1,0 +1,17 @@
+.content {
+  min-height: 100vh;
+  background-image: url("../../assets/bg.jpg");
+  background-position: center center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 238, 255, 0.842), rgba(255, 0, 149, 0.651));
+}
